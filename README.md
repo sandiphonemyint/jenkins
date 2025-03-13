@@ -23,7 +23,7 @@ If using a cloud server, configure it to allow public access to Jenkins:
 # Open port 8080 in the firewall settings of your cloud provider.
 
 docker run -p 8080:8080 jenkins/jenkins
-# Find your public IP address and access Jenkins via http://<public-ip>:8080.
+# Find your public IP address and access Jenkins via http://public-ip:8080.
 
 Step 5: Enable Persistent Storage for Jenkins
 By default, all Jenkins data (plugins, jobs, configurations) is stored in /var/jenkins_home inside the container. If the container is removed, the data is lost.
