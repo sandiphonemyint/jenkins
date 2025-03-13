@@ -37,7 +37,7 @@ docker run -p 8080:8080 -v /root/my-jenkins-data:/var/jenkins_home -u root jenki
 
 Accessing Jenkins
 Once the container is running, access Jenkins by navigating to:
-http://<your-public-ip>:8080
+http://your-public-ip:8080
 
 Conclusion
 You have successfully set up a Jenkins web server on a Google Cloud VM using Docker. Jenkins data is now persistent, and you can access the web interface via your public IP.
