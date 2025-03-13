@@ -7,7 +7,7 @@ Prerequisites
 # Step 1: Install Docker
 # Step 2: Pull and Run Jenkins Image
 Pull the official Jenkins image from Docker Hub
-docker pull jenkins/jenkins
+<docker pull jenkins/jenkins>
 
 Run the Jenkins container
 docker run jenkins/jenkins
