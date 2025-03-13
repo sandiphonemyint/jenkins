@@ -16,7 +16,7 @@ docker ps -a
 
 Step 3: Find Your VM's Internal IP. To access Jenkins internally, find your VM's internal IP:
 docker inspect <container-id>
-# If using VMware, access Jenkins via http://<internal-ip>:8080.
+# If using VMware, access Jenkins via http://internal-ip:8080.
 
 Step 4: Configure Jenkins for Public Access
 If using a cloud server, configure it to allow public access to Jenkins:
